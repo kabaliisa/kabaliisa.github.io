@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}
+
+.background-img {
+    background-image: url('images/background-img.jpg');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -100px;
+}
+
+.content {
+    padding-left: 5px;
+}
+
+.profile-img {
+    padding-left: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(211, 207, 207);
+}
+
+.footer-content {
+    padding-left: 5px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+
+/* li a:active {
+    color: blue;
+} */

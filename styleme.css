@@ -1,0 +1,73 @@
+body {
+    background-color: #424a43;
+}
+
+.character {
+    color: yellow;
+}
+
+h1,
+h3 {
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li,
+p,
+span {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+}
+
+.img-mood {
+    width: 18%;
+    height: auto;
+}
+
+li a {
+    color: tomato;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+dt {
+    color: yellow;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 5%;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: rgb(211, 207, 207); */
+}
+
+.footer-content {
+    padding-left: 5px;
+}
+
+p span.email {
+    color: aqua;
+}
+
+ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#validator {
+    text-align: right;
+}
+
+.fact {
+    font-style: italic;
+}
