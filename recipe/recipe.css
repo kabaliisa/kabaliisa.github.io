@@ -1,11 +1,14 @@
 h1 {
     color: #a4a400;
-    background-color: #f0f0f0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
     font-size: 18pt;
     text-decoration: underline;
     letter-spacing: 0.25em;
+}
+
+h1 span {
+    background-color: #f0f0f0;
 }
 
 h1.main {
@@ -95,4 +98,8 @@ div.comments p {
 
 .validator {
     clear: both;
+}
+
+ul.INGREDIENTS {
+    list-style-image: url('https://kabaliisa.github.io/recipe/images/pie_icon.gif');
 }
