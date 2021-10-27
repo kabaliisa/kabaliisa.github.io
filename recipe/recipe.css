@@ -1,0 +1,99 @@
+h1 {
+    color: #a4a400;
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+h1.main {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+body {
+    background-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg');
+    background-attachment: fixed;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #A4A400;
+}
+
+.tablespoons {
+    text-decoration: underline;
+}
+
+.teaspoons {
+    text-decoration: underline;
+}
+
+
+/* Tooltip text */
+
+.tablespoons .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.teaspoons .tooltiptext2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+li span.tablespoons:hover .tooltiptext {
+    visibility: visible;
+}
+
+li span.teaspoons:hover .tooltiptext2 {
+    visibility: visible;
+}
+
+.cake-del {
+    text-decoration: line-through;
+}
+
+.preformatted {
+    font-family: monospace;
+}
+
+.preformatted {
+    float: left;
+}
+
+div.preformatted p {
+    text-align: right;
+}
+
+div.comments {
+    background-color: #FFFFA8;
+}
+
+div.comments p {
+    font-style: italic;
+}
+
+.validator {
+    clear: both;
+}
