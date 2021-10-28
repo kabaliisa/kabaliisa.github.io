@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+
+
+    <div class="flex-container">
+        <form action="http://mumstudents.org/params.php" method="get">
+            <fieldset>
+                <legend>New User Signup:</legend>
+                <label for="sname">Name:</label>
+                <input type="text" maxlength="16" id="sname" name="name"><br><br>
+                <span>Gender:</span>
+                <input type="radio" id="male" name="gender" value="male">
+                <label class="gender" for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" checked>
+                <label class="gender" for="female">Female</label><br><br>
+                <label for="age">Age:</label>
+                <input type="text" size="6" maxlength="2" id="age" name="age"><br><br>
+                <label for="personality">Personality Type:</label>
+                <input type="text" size="6" maxlength="4" id="personality" name="personality">(<a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">Don't know your type?</a>)<br><br>
+                <label for="os">Favorite Os:</label>
+                <select id="os" name="os">
+                    <option value="linux">linux</option>
+                    <option value="macos">Mac Os X</option>
+                    <option value="windows" selected>Windows</option>
+                </select><br><br>
+                <label for="seek">Seeking Age:</label>
+                <input type="text" placeholder="min" maxlength="2" size="6" id="seek" name="min"> to <input placeholder="max" type="text" maxlength="2" size="6" id="seek" name="max"><br><br>
+                <input type="submit" value="Sign Up">
+            </fieldset>
+
+        </form>
+    </div>
+
+    <div class="validator">
+        <a href=""><img src="../images/w3c.png" alt="Valid HTML5" /></a> <br />
+        <a href=""><img src="../images/w3c-css.png" alt="Valid CSS " /></a>
+    </div>
+
+</body>
+
+</html>

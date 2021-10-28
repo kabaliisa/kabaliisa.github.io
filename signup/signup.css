@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+fieldset {
+    border-radius: 5px;
+    background-color: lightsteelblue;
+    width: 500px;
+}
+
+legend {
+    background-color: white;
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    background-color: darksalmon;
+    font-weight: bold;
+}
+
+.flex-container {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    width: 150px;
+    display: inline-block;
+}
+
+label.gender {
+    font-weight: normal;
+    display: inline;
+}
+
+form span {
+    font-weight: bold;
+    width: 150px;
+    display: inline-block;
+}
+
+a {
+    color: red;
+    display: inline;
+    font-weight: normal;
+    width: auto;
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.validator {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

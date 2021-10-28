@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grades.css" type="text/css">
+</head>
+
+<body>
+    <h1>Retrieve your grade</h1>
+
+    <div class="flex-container">
+        <form action="http://mumstudents.org/params.php" method="get">
+            <fieldset>
+                <legend>Details</legend>
+                <label for="sname">Name:</label>
+                <input type="text" id="sname" name="name"><br><br>
+                <label for="sid">Student Id:</label>
+                <input type="text" id="sid" name="id"><br><br>
+                <label for="assign">Choose assignment:</label>
+                <select id="assign" name="assignment">
+                    <option value="homepage">Homepage</option>
+                    <option value="recipe">Recipe</option>
+                    <option value="movie">Movie Review</option>
+                    <option value="aboutme" selected>Aboutme</option>
+                </select>
+                <p>Select entry:</p>
+                <input type="radio" id="feb" name="entry" value="feb">
+                <label class="normal-label" for="feb">February</label><br>
+                <input type="radio" id="may" name="entry" value="may">
+                <label class="normal-label" for="may">May</label><br>
+                <input type="radio" id="aug" name="entry" value="august">
+                <label class="normal-label" for="aug">August</label><br>
+                <input type="radio" id="nov" name="entry" value="november">
+                <label class="normal-label" for="nov">November</label><br>
+                <p>Confirm below if you're not lying and you are looking up your own grades.</p>
+                <input type="checkbox" id="confirm1" name="confirm" value="yes">
+                <label class="normal-label" for="confirm1"> Confirm</label><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+        </form>
+    </div>
+
+
+
+    <div class="validator">
+        <a href=""><img src="../images/w3c.png" alt="Valid HTML5" /></a> <br />
+        <a href=""><img src="../images/w3c-css.png" alt="Valid CSS " /></a>
+    </div>
+</body>
+
+</html>
