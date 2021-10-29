@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    align-self: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black
+}
+
+button:hover {
+    cursor: pointer;
+}
