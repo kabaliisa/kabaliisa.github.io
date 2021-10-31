@@ -16,7 +16,7 @@ function changeFontHandler() {
         text.style.color = "green";
         text.style.textDecoration = "underline";
         // document.body.style.backgroundImage = "url('http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg')";
-        document.body.style.backgroundImage = "url('../images/profile-pic.png')";
+        document.body.style.backgroundImage = "url('images/background.jpg')";
     } else {
         const text = document.getElementById("myText");
         text.style.fontWeight = "null";
