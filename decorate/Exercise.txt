@@ -1,0 +1,29 @@
+1. setTimeout(booyah, 2000) calls the functon booyah() after 2000ms.
+while setTimeout(booyah(), 2000) calls the function immediately rather
+than waiting for 2000s.
+
+2. The 2 alerts display 6;
+
+3. 
+setTimeout(booyah1, 2000, "BOOYAH!");
+setTimeout(booyah2, 2000, "BOOYAH!");
+
+function booyah1(s){
+    alert(s);
+}
+
+function booyah2(s){
+    alert(s);
+}
+
+4.  Unobstructive javascript is a way of writing javascript by seperating
+HTML content and script content which makes us to make a clear distinction between them.
+It allows seperation of web into 3 major categories that is
+- content(HTML)
+- presentation(CSS)
+- behavior(javascript)
+
+Advantages
+-It makes our code less error prone,
+-It makes our code easy to debug and update.
+
