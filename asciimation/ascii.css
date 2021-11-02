@@ -63,6 +63,12 @@ input[type="checkbox"] {
 }
 
 div.footer {
-    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
     margin: 1em;
+    left: 0;
+    bottom: 0;
+    min-height: 42vh;
 }
