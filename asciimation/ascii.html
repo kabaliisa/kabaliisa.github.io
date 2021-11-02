@@ -12,57 +12,56 @@
 
 </head>
 
-<h1>CS472: ASCII Animation Viewer</h1>
-
-<div class="content">
-    <textarea id="mytextarea" cols="80" rows="20"></textarea>
-
-</div>
-<div class="controls">
-    <fieldset>
-        <legend>Play Controls:</legend>
-        <div class="btn">
-            <button id="start" onclick="start()">Start</button>
-            <button id="stop" onclick="stop()">Stop</button>
-        </div>
-
-    </fieldset>
-    <fieldset>
-        <legend>Animation:</legend>
-        <select id="animation" onchange="animationSelector()">
-        <option value="blank" selected>Blank</option>
-        <option value="custom">Custom</option>
-        <option value="exercise">Exercise</option>
-        <option value="juggler">Juggler</option>
-        <option value="bike">Bike</option>
-        <option value="dive">Dive</option>
-       </select>
-    </fieldset>
-    <fieldset>
-        <legend>Size:</legend>
-        <select id="font" onchange="fontSelector()">
-        <option value="small">Small</option>
-        <option value="medium" selected>Medium</option>
-        <option value="large">Large</option>
-        <option value="extraLarge">ExtraLarge</option>
-        <option value="xxl">XXL</option>
-       </select>
-    </fieldset>
-    <fieldset>
-        <legend>Animation:</legend>
-        <input type="checkbox" id="mycheck" onclick="speed()">
-        <label for="mycheck">Turbo</label><br>
-    </fieldset>
-</div>
-
-<div class="footer">
-    <a href=""><img src="/images/w3c.png" alt="html validator" /></a>
-    <a href=""><img src="/images/w3c-css.png" alt="css validator" /></a>
-    <a href=""><img src="/images/jshint-small.png" alt="js validator" /></a>
-</div>
 
 <body>
+    <h1>CS472: ASCII Animation Viewer</h1>
 
+    <div class="content">
+        <textarea id="mytextarea" cols="80" rows="20"></textarea>
+
+    </div>
+    <div class="controls">
+        <fieldset>
+            <legend>Play Controls:</legend>
+            <div class="btn">
+                <button id="start" onclick="start()">Start</button>
+                <button id="stop" onclick="stop()">Stop</button>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Animation:</legend>
+            <select id="animation" onchange="animationSelector()">
+            <option value="blank" selected>Blank</option>
+            <option value="custom">Custom</option>
+            <option value="exercise">Exercise</option>
+            <option value="juggler">Juggler</option>
+            <option value="bike">Bike</option>
+            <option value="dive">Dive</option>
+           </select>
+        </fieldset>
+        <fieldset>
+            <legend>Size:</legend>
+            <select id="font" onchange="fontSelector()">
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+            <option value="extraLarge">ExtraLarge</option>
+            <option value="xxl">XXL</option>
+           </select>
+        </fieldset>
+        <fieldset>
+            <legend>Animation:</legend>
+            <input type="checkbox" id="mycheck" onclick="speed()">
+            <label for="mycheck">Turbo</label><br>
+        </fieldset>
+    </div>
+
+    <div class="footer">
+        <a href=""><img src="/images/w3c.png" alt="html validator" /></a>
+        <a href=""><img src="/images/w3c-css.png" alt="css validator" /></a>
+        <a href=""><img src="/images/jshint-small.png" alt="js validator" /></a>
+    </div>
 </body>
 
 </html>
