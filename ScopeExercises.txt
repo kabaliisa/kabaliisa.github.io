@@ -40,7 +40,7 @@ In a constructor function it has no value. It refers to the new object when a ne
 
 6. Assume object x is the prototype for object y in Javascript. Object x has a method f( ) containing keyword 'this'.
 When f is called by x.f( ), what does 'this' refer to?
-this refers to the object x
+'this' refers to the object x
 
 7. What is a free variable in JavaScript?
 It is a variable referred to by a function that is
