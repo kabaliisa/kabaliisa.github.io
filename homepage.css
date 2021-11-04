@@ -26,11 +26,14 @@ li a {
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(211, 207, 207);
+    /* background-color: rgb(211, 207, 207); */
+    /* color: #707070; */
+    height: 2em;
+    position: relative;
+    font-size: small;
 }
 
 .footer-content {
