@@ -262,20 +262,14 @@ let employee = (function() {
 13. Write a few Javascript instructions to extend the Module of Question 10 to have a public address field and
 public methods setAddress(newAddress) and getAddress( ).
 
-employee.extension = function() {
-    let address;
-    let setAddress = function(newAdress) {
+employee.address = '';
+employee.setAddress = function(newAdress) {
         address = newAdress;
-    }
-    let getAddress = function() {
+}
+employee.getAddress = function() {
         return address;
-    }
-    return {
-        setAddress: setAddress,
-        getAddress: getAddress,
-        address: address
-    }
-};
+}
+
 
 14. What is the output of the following code?yeah it's abit confusing but today i tried
 const promise = new Promise((resolve, reject) => {
