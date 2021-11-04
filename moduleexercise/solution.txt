@@ -171,10 +171,10 @@ let employee = (function() {
         return name;
     };
     let increaseSalary = function(percentage) {
-        return getSalary() * percentage + getSalary();
+         setSalary(getSalary() * percentage + getSalary());
     };
     let incrementAge = function() {
-        return getAge() += 1;
+        setAge(getAge() + 1);
     };
 
     return {
@@ -213,11 +213,10 @@ let employee = (function() {
             name = name;
         },
         increaseSalary: function(percentage) {
-            return getSalary() * percentage + getSalary();
+            setSalary(getSalary() * percentage + getSalary());
         },
         incrementAge: function() {
-            age = getAge();
-            return age += 1;
+            setAge(getAge() + 1)
         }
     }
 
@@ -251,10 +250,10 @@ let employee = (function() {
         name = name;
     };
     emloyeeObject.increaseSalary = function(percentage) {
-        return getSalary() * percentage + getSalary();
+        setSalary(getSalary() * percentage + getSalary());
     };
     emloyeeObject.incrementAge = function() {
-        return getAge() += 1;
+        setAge(getAge() + 1);
     };
 
     return employeeObject;
