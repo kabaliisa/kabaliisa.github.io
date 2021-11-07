@@ -5,21 +5,28 @@ $(document).ready(function() {
 });
 
 let isWallHit = false;
+let isStarted = false;
 let reset = () => {
     isWallHit = false;
+    isStarted = true;
     $(".boundary").removeClass("youlose");
     $("#status").text('Click the "S" to begin. ');
 }
 
 let red = () => {
-    isWallHit = true;
-    $(".boundary").addClass("youlose");
+    if (isStarted) {
+        isWallHit = true;
+        $(".boundary").addClass("youlose");
+    }
 }
 
 let end = () => {
-    if (!isWallHit) {
-        $("#status").text("You win! :]");
-    } else {
-        $("#status").text("You lost! :[");
+    if (isStarted) {
+        if (!isWallHit) {
+            $("#status").text("You win! :]");
+        } else {
+            $("#status").text("You lost! :[");
+        }
     }
+    isStarted = false;
 }
