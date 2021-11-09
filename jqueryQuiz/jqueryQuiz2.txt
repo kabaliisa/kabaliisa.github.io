@@ -32,7 +32,7 @@ their text color be blue.
 Answer.
 
 $(document).ready(function(){
-    $("div").has("ul");
+    $("div").has("ul").css("color", "blue");
 });
 
  </script>
