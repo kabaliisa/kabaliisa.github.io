@@ -22,9 +22,9 @@
     <p><span>Test</span> Paragraph.</p>
     <p></p>
     <script>
-        < !—INSERT YOUR JQUERY CODE HERE - - >
+       
 
-        Answer.
+        //Answer.
 
         var str = $( "p" ).first().text();
         $( "p" ).last().html( str );
