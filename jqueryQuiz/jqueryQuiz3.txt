@@ -80,8 +80,9 @@ items of the span of text ("some text") in the following to green.
 
 <head>
     <script>
-        $(document).ready(function() { <
-            !—INSERT YOUR JQUERY CODE HERE - - >
+        $(document).ready(function() { 
+            //Answer
+            $("span").parents().css("color", "green");
         });
     </script>
 </head>
@@ -100,5 +101,3 @@ items of the span of text ("some text") in the following to green.
 
 </html>
 
-Answer.
-$("span").parents().css("color", "green");
