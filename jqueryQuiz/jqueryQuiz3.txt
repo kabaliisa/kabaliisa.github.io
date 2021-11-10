@@ -23,6 +23,9 @@
     <p></p>
     <script>
         < !—INSERT YOUR JQUERY CODE HERE - - >
+
+        Answer.
+
         var str = $( "p" ).first().text();
         $( "p" ).last().html( str );
     </script>
@@ -58,6 +61,8 @@ $(".level-2").children().css("background-color","red");
     <li>list item 4</li>
     <li>list item 5</li>
 </ul>
+
+Answer.
 
 $(".third-item").parent().css("background-color","blue");
 
@@ -95,4 +100,5 @@ items of the span of text ("some text") in the following to green.
 
 </html>
 
+Answer.
 $("span").parents().css("color", "green");
