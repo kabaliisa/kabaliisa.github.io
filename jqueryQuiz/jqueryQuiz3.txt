@@ -51,6 +51,8 @@
     <li class="item-iii">III</li>
 </ul>
 
+Answer.
+
 $(".level-2").children().css("background-color","red");
 
 3. Write jQuery code to select the element that comes immediately before item three and change its background color to blue.
