@@ -1,0 +1,10 @@
+
+h1 The Number Quiz
+p Your current score is #{score}.
+p Guess the next number in the sequence.
+p #{number}
+form(action="/result", method="post")
+    label(for="mynumber") Your answer:
+    input(id="mynumber", name="guessedNumber", type="text", maxlength="2", size="2")
+    br
+    input( type="submit") 
