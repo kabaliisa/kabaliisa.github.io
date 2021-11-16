@@ -17,10 +17,8 @@ app.get('/', function(req, res) {
     })
 });
 
-app.post('/:query?', function(req, res) {
-
+app.post('/', function(req, res) {
     wordMod.word(req, res);
-
 });
 
 let server = app.listen(3000, function() {
